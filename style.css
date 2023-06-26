@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(77, 77, 250);
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-logo img{
+    height: 18px;
+    display: block;
+    margin-right: 20px;
+}
+.nav-logo p{
+    color: white;
+    font-size: 0.66rem;
+    font-style: italic;
+    display: inline;
+}
+
+.plus{
+    color: rgb(224, 166, 57);
+    font-size: 0.66rem;
+    font-style: italic;
+}
+
+.nav-search{
+    height: 35px;
+    width: 400px;
+    border: none;
+    padding-left: 15px;
+}
+
+.search-icon{
+    height: 35px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(77, 77, 250, 0.842);;
+}
+
+.nav-button button{
+    height: 30px;
+    width: 130px;
+    background-color: white;
+    color: rgb(77, 77, 250);
+    font-weight: 600;
+    margin-left: 20px;
+    border: none;
+    font-size: 0.85rem;
+}
+
+.nav-box{
+    color: white;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.nav-cart{
+    color: white;
+    margin-left: 50px;
+}
+
+.items{
+    height: 65px;
+}
+
+.items-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.items-content img{
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+}
+
+.text-content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.text-content a{
+    text-decoration: none;
+    color: #212122;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.text-content a:hover{
+    color: rgb(77, 77, 250);
+}
+
+.hero-section{
+    height: 1340px;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.hero-box{
+    display: inline-block;
+    text-align: center;
+}
+
+.hero-main{
+    height: 260px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hero-main2{
+    height: 260px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hero-main3{
+    height: 260px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2{
+    padding: 20px;
+    font-weight: 400;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hero-items img{
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.hero-text{
+    color: #212122;
+    font-weight: 400;
+}
+
+.hero-link a{
+    text-decoration: none;
+    color: rgb(77, 77, 250);
+}
+
+.hero-items1 img{
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+.hero-text1{
+    color: #212122;
+    font-weight: 400;
+}
+
+.hero-link1 a{
+    text-decoration: none;
+    color: rgb(77, 77, 250);
+}
+
+.footer{
+    background-color: #ffffff;
+    height: 1550px;
+    padding: 0px 25px;
+    margin-top: 50px;
+}
+
+.footer-content{
+    color: #878787;
+    height: 925px;
+    font-size: 11px;
+}
+
+.footer-content h1{
+    margin: 0px 0px 10px;
+    color: #878787;
+    font-size: 16px;
+}
+
+.footer-content h3{
+    margin: 0px 0px 10px;
+    color: #878787;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer-panel{
+    background-color: rgb(21, 19, 59);
+    height: 250px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+}
+
+.footer-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.footer-content2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content2 ul li{
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer-content2 p{
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-content2 a:hover{
+    text-decoration: underline;
+}
+
+.footer-content3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    color: white;
+}
+
+.footer-panel3{
+    height: 73px;
+    background-color: rgb(21, 19, 59);
+}
